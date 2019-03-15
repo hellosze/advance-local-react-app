@@ -98,14 +98,14 @@ class App extends Component {
   render () {
     return (
       <div className='advance_local_app'>
-      <div class="col-sm-8 col-md-7 py-4">
+      <div className="col-sm-8 col-md-7 py-4">
         <h3>300x250 Ad</h3>
         <AdUnit 
           size={this.state.adSize1}
           slotName={this.state.adSlot1}
           slotKeyValues={this.state.adSlot1Targeting} />
       </div>
-      <div class="col-sm-8 col-md-7 py-4">
+      <div className="col-sm-8 col-md-7 py-4">
         <h3>728x90 Ad</h3>
         <AdUnit 
           size={this.state.adSize2}
